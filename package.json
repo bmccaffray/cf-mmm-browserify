@@ -1,0 +1,35 @@
+{
+  "name": "cf-mmm-browserify",
+  "version": "1.0.0",
+  "description": "mean/median/mode app setup with browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmccaffray/cf-mmm-browserify.git"
+  },
+  "author": "brett mccaffray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmccaffray/cf-mmm-browserify/issues"
+  },
+  "homepage": "https://github.com/bmccaffray/cf-mmm-browserify",
+  "dependencies": {
+    "body-parser": "^1.6.3",
+    "debowerify": "^0.8.1",
+    "express": "^4.8.3"
+  },
+  "devDependencies": {
+    "globule": "^0.2.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^2.1.4",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "matchdep": "^0.3.0"
+  }
+}
