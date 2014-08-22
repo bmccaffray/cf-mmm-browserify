@@ -1,0 +1,17 @@
+{
+  "name": "cf-mmm-browserify",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bmccaffray/cf-mmm-browserify",
+  "authors": [
+    "Brett McCaffray"
+  ],
+  "description": "mean, median, mode app with express and browserify",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
