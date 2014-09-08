@@ -1,17 +1,18 @@
 'use strict';
 
-// var express = require('express');
-// var http = require('http');
+var express = require('express');
+var http = require('http');
+var bodyParser = require('body-parser');
+
 var mean = require('./mean');
 var median = require('./median');
 var mode = require('./mode');
-// var bodyParser = require('body-parser');
 
 var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
-  extended: true
+    extended: true
 }));
 
 app.get('/', function(req, res){
@@ -40,5 +41,5 @@ var server = http.createServer(app);
 app.set('port', process.env.PORT || 3000);
 
 server.listen(app.get('port'), function() {
-  console.log('server running on port ' + app.get('port'));
+    console.log('server running on port ' + app.get('port'));
 });
